@@ -1,0 +1,16 @@
+{
+  "name": "hedera-test",
+  "version": "1.0.0",
+  "description": "Repo for hedera certification test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beno Sam Binu",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/hethers": "^1.2.5",
+    "@hashgraph/sdk": "^2.19.2",
+    "dotenv": "^16.0.3"
+  }
+}
