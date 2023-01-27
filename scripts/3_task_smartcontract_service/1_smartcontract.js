@@ -28,7 +28,7 @@ if (test1AccountId == null || test1PrivateKey == null ||
 const client = Client.forTestnet();
 client.setOperator(test1AccountId, test1PrivateKey);
 
-async function main() {
+const main = async () => {
     let esealCompiled = require("./CertificationC1.json");
     const bytecode = esealCompiled.bytecode;
 

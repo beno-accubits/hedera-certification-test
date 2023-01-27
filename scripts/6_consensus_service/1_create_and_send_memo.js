@@ -18,7 +18,7 @@ if (test1AccountId == null || test1PrivateKey == null) {
 const client = Client.forTestnet();
 client.setOperator(test1AccountId, test1PrivateKey);
 
-async function main() {
+const main = async () => {
 
     //Create a new topic
     let txResponse = await new TopicCreateTransaction()

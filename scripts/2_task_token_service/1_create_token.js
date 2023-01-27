@@ -18,7 +18,7 @@ const test2PrivateKey = PrivateKey.fromString(process.env.TEST_2_PRIVATE_KEY);
 if (test1AccountId == null || test1PrivateKey == null ||
     test2AccountId == null || test2PrivateKey == null
 ) {
-    throw new Error("Environment variables for 4 test accounts must be present");
+    throw new Error("Environment variables for test accounts must be present");
 }
 
 // Setup client
